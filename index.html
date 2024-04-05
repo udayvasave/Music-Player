@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Music Player</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <li class="brand">
+          <img src="Spotify-Icon-Logo.wine.svg" alt="spotify" />
+          <span>Spotify</span>
+        </li>
+        <li>Home</li>
+        <li>About</li>
+        <li>Contact us</li>
+      </ul>
+    </nav>
+
+    <div class="container">
+      <div class="songList">
+        <h1 class="h1">Mega Hits by K.K.</h1>
+        <div>
+          <div class="songItem">
+            <img
+              src="./Cover Images/cover imae.jpg"
+              alt="1"
+              class="coverImage"
+            />
+            <span class="songName">Let me be your lover</span>
+            <span class="songListPlay"
+              ><span class="timeStamp">04:30</span
+              ><img
+                src="./Icons/Play.svg"
+                alt="play"
+                id="0"
+                class="songListPlayBtn"
+            /></span>
+          </div>
+
+          <div class="songItem">
+            <img
+              src="./Cover Images/cover imae.jpg"
+              alt="1"
+              class="coverImage"
+            />
+            <span class="songName">Let me be your lover</span>
+            <span class="songListPlay"
+              ><span class="timeStamp">04:30</span
+              ><img
+                src="./Icons/Play.svg"
+                alt="play"
+                id="1"
+                class="songListPlayBtn"
+            /></span>
+          </div>
+
+          <div class="songItem">
+            <img
+              src="./Cover Images/cover imae.jpg"
+              alt="1"
+              class="coverImage"
+            />
+            <span class="songName">Let me be your lover</span>
+            <span class="songListPlay"
+              ><span class="timeStamp">04:30</span
+              ><img
+                src="./Icons/Play.svg"
+                alt="play"
+                id="2"
+                class="songListPlayBtn"
+            /></span>
+          </div>
+
+          <div class="songItem">
+            <img
+              src="./Cover Images/cover imae.jpg"
+              alt="1"
+              class="coverImage"
+            />
+            <span class="songName">Let me be your lover</span>
+            <span class="songListPlay"
+              ><span class="timeStamp">04:30</span
+              ><img
+                src="./Icons/Play.svg"
+                alt="play"
+                id="3"
+                class="songListPlayBtn"
+            /></span>
+          </div>
+
+          <div class="songItem">
+            <img
+              src="./Cover Images/cover imae.jpg"
+              alt="1"
+              class="coverImage"
+            />
+            <span class="songName">Let me be your lover</span>
+            <span class="songListPlay"
+              ><span class="timeStamp">04:30</span
+              ><img
+                src="./Icons/Play.svg"
+                alt="play"
+                id="4"
+                class="songListPlayBtn"
+            /></span>
+          </div>
+
+          <div class="songItem">
+            <img
+              src="./Cover Images/cover imae.jpg"
+              alt="1"
+              class="coverImage"
+            />
+            <span class="songName">Let me be your lover</span>
+            <span class="songListPlay"
+              ><span class="timeStamp">04:30</span
+              ><img
+                src="./Icons/Play.svg"
+                alt="play"
+                id="5"
+                class="songListPlayBtn"
+            /></span>
+          </div>
+          <div class="songItem">
+            <img
+              src="./Cover Images/cover imae.jpg"
+              alt="1"
+              class="coverImage"
+            />
+            <span class="songName">Let me be your lover</span>
+            <span class="songListPlay"
+              ><span class="timeStamp">04:30</span
+              ><img
+                src="./Icons/Play.svg"
+                alt="play"
+                id="6"
+                class="songListPlayBtn"
+            /></span>
+          </div>
+          <div class="songItem">
+            <img
+              src="./Cover Images/cover imae.jpg"
+              alt="1"
+              class="coverImage"
+            />
+            <span class="songName">Let me be your lover</span>
+            <span class="songListPlay"
+              ><span class="timeStamp">04:30</span
+              ><img
+                src="./Icons/Play.svg"
+                alt="play"
+                id="7"
+                class="songListPlayBtn"
+            /></span>
+          </div>
+        </div>
+      </div>
+
+      <div class="songBanner"></div>
+    </div>
+    <div class="bottom">
+      <input
+        type="range"
+        name="range"
+        id="myProgressBar"
+        min="0"
+        value="0"
+        max="1000"
+      />
+      <div class="icons">
+        <img src="./Icons/Shuffle.svg" alt="shuffle" class="shuffle" />
+        <img
+          src="./Icons/backward.svg"
+          alt="previous"
+          class="previous"
+          id="previousBtn"
+        />
+        <!-- <img src="./Icons/Pause.svg" alt="pause" class="pause" id="pausebtn" /> -->
+        <img src="./Icons/Play.svg" alt="play" id="masterPlay" class="play" />
+        <img src="./Icons/forward.svg" alt="next" class="next" id="nextBtn" />
+        <img src="./Icons/repeat.svg" alt="repeat" id="repeat" class="repeat" />
+        <!-- <img src="./Icons/repeat-once.png" alt="repeat1" class="repeatOnce" /> -->
+        <!-- fontawesome icons -->
+      </div>
+      <div class="songInfo">
+        <img src="./playing.gif" alt="musicPlaying" class="gif" id="gif" />
+
+        <span id="songTitle">Not Playing</span>
+        <img id="albumArt" class="coverImage" />
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
